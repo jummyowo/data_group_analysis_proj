@@ -16,7 +16,7 @@ output:
 ---
 
 ## Introduction
-<a href="https://www.propublica.org/article/over-a-dozen-black-and-latino-men-accused-a-cop-of-humiliating-invasive-strip-searches-the-nypd-kept-promoting-him">link text</a>
+<a href="https://www.propublica.org/article/over-a-dozen-black-and-latino-men-accused-a-cop-of-humiliating-invasive-strip-searches-the-nypd-kept-promoting-him">"link text"Over a dozen black and latino men accused a cop of humiliating invasive strip searches."</a>
 The purpose of this document is to reverse engineer main findings from the ProPublica story "Over a Dozen Black and Latino Men Accused a Cop of Humiliating, Invasive Strip Searches. the NYPD Kept Promoting." Using the database of NYPD allegations from 1985 to 2020, the main findings of the story were reproduced through cleaning, analyzing and mutating the data into strings. Four findings from the story are presented in this notebook as questions, then answered with lines of R in the subsequent codeblocks. [Over a Dozen Black and Latino Men Accused a Cop of Humiliating, Invasive Strip Searches. The NYPD Kept Promoting Him.]
 
 DATA HAS BEEN UPDATED SINCE POST RAN STORY, SO OUR FINDINGS ARE SLIGHTLY DIFFERENT. 
@@ -52,7 +52,7 @@ allegations_NYPD
 
 Question 1: The allegations against McCormack read in some ways like those against many other cops in the NYPD: that he was destructive in searching a home or overly physical with someone on the street. How often did Black and Latino men accuse McCormack of invasive, humiliating searches?
 
-Answer 1: Latino men accused McCormack of invasive/humiliating searches, which includes: frisk & search, frisk, word, threat of force, gun pointed, physical force, strip-searched, 10 times. Black men accused McCormick of invasive/humiliating searches, which includes:frisk and search, gun-pointed, physical force, threat of force, word, strip-searched, pepper spray, 17 times.  ANY DISCUSSION ABOUT DECISIONS YOU MADE WHILE ANALYZING THAT.  
+Answer 1: Latino men accused McCormack of invasive/humiliating searches, which includes: frisk & search, frisk, word, threat of force, gun pointed, physical force, strip-searched, 10 times. Black men accused McCormick of invasive/humiliating searches, which includes:frisk and search, gun-pointed, physical force, threat of force, word, strip-searched, pepper spray, 17 times.
 
 ```{r}
 # In this next set of codeblocks, we will be discovering how many allegations were made against McCormack of invasive and humiliating searches (frisks, frisk and search, strip searches, etc.) made by Black and Hispanic men.
@@ -157,7 +157,6 @@ x
 
 Question 3: Eighty-six of the roughly 420 officers in the department who currently hold a rank above captain — running precincts and other large commands and overseeing hundreds of officers — have tallied at least one misconduct allegation that was substantiated by the CCRB, meaning that investigators amassed enough evidence of offenses, ranging from bad language to pistol whippings, to say that they happened and broke patrol guidelines. The most common involved improper property entries and searches.
 
-#Note: Able to reproduce 81, but not 86.
 
 ```{r}
 #Here we created a new string to show the different ranks in the NYPD, and grouped the data by their current ranks.
