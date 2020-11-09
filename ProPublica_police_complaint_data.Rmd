@@ -16,7 +16,7 @@ output:
 ---
 
 ## Introduction
-<a href="https://www.propublica.org/article/over-a-dozen-black-and-latino-men-accused-a-cop-of-humiliating-invasive-strip-searches-the-nypd-kept-promoting-him">"link text"Over a dozen black and latino men accused a cop of humiliating invasive strip searches."</a>
+<a href="https://www.propublica.org/article/over-a-dozen-black-and-latino-men-accused-a-cop-of-humiliating-invasive-strip-searches-the-nypd-kept-promoting-him">"Over a dozen black and latino men accused a cop of humiliating invasive strip searches."</a>
 The purpose of this document is to reverse engineer main findings from the ProPublica story "Over a Dozen Black and Latino Men Accused a Cop of Humiliating, Invasive Strip Searches. the NYPD Kept Promoting." Using the database of NYPD allegations from 1985 to 2020, the main findings of the story were reproduced through cleaning, analyzing and mutating the data into strings. Four findings from the story are presented in this notebook as questions, then answered with lines of R in the subsequent codeblocks. [Over a Dozen Black and Latino Men Accused a Cop of Humiliating, Invasive Strip Searches. The NYPD Kept Promoting Him.]
 
 DATA HAS BEEN UPDATED SINCE POST RAN STORY, SO OUR FINDINGS ARE SLIGHTLY DIFFERENT. 
